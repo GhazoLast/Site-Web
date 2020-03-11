@@ -24,6 +24,7 @@ header
 	display: flex;
 	justify-content: space-around;
 	font-size: 20px;
+  background-color: rgba(30,30,30);
 }
 
 .nav-item
@@ -38,14 +39,14 @@ header
 
 .presentation
 {
-display: flex;
-justify-content: center;
+
 
 }
 
 .entete
 {
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0);
+  color: white;
 }
 h2
 {
@@ -99,13 +100,13 @@ h3
 
 .coding
 {
-	background-color:  rgba(74,74,74,0.6);
+	background-color:  rgba(74,74,74,0.9);
 	
 }
 
 .sounding
 {
-  background-color:  rgba(121,121,121,0.6);
+  background-color:  rgba(121,121,121,0.9);
 }
 
 .coding , .sounding
@@ -116,7 +117,7 @@ h3
 
 .goWork
 {
-	margin: 0px 640px;
+	margin: 0px 440px;
 	border: 2px solid;
 	border-radius: 70px;
 
@@ -312,4 +313,9 @@ margin: 10px 0px;
 display: flex;
 justify-content: center;
 list-style-type: none;
+}
+
+img 
+{
+  transform-origin:center center;
 }
